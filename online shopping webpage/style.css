@@ -1,0 +1,128 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: turquoise; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black; 
+}
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: black; 
+}
+.hero-text h1 {
+  font-size: 3.5rem;
+  color: palevioletred; 
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: black;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #5D5FEF;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: red;
+}
+
+footer {
+  background-color: #f4f4f4;
+  color: #777;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  font-family: 'Open Sans', sans-serif;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main, .hero, .collections {
+  flex-grow: 1;
+}
+footer {
+  background-color: #f4f4f4;
+  color: #777;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  font-family: 'Open Sans', sans-serif;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f4f4f4;
+  color: #777;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+footer {
+  background-color: turquoise;
+  color: red;
+}
+
+
+.hero {
+  background: url('img5.jpeg') no-repeat center center/cover;
+  height: 85vh; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 60px;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero {
+  background-image: url('img5.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 60px;
+  color: #fff;
+}
