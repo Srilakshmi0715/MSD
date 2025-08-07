@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Virtual Keyboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Keyboard</h2>
+
+  <input type="text" id="textDisplay" placeholder="Type here..." readonly>
+  <div class="keyboard-box">
+    <div class="keyboard">
+      <div class="row">
+        <button onclick="pressKey('Q')">Q</button>
+        <button onclick="pressKey('W')">W</button>
+        <button onclick="pressKey('E')">E</button>
+        <button onclick="pressKey('R')">R</button>
+        <button onclick="pressKey('T')">T</button>
+        <button onclick="pressKey('Y')">Y</button>
+        <button onclick="pressKey('U')">U</button>
+        <button onclick="pressKey('I')">I</button>
+        <button onclick="pressKey('O')">O</button>
+        <button onclick="pressKey('P')">P</button>
+      </div>
+
+      <div class="row">
+        <button onclick="pressKey('A')">A</button>
+        <button onclick="pressKey('S')">S</button>
+        <button onclick="pressKey('D')">D</button>
+        <button onclick="pressKey('F')">F</button>
+        <button onclick="pressKey('G')">G</button>
+        <button onclick="pressKey('H')">H</button>
+        <button onclick="pressKey('J')">J</button>
+        <button onclick="pressKey('K')">K</button>
+        <button onclick="pressKey('L')">L</button>
+      </div>
+
+      <div class="row">
+        <button onclick="pressKey('Z')">Z</button>
+        <button onclick="pressKey('X')">X</button>
+        <button onclick="pressKey('C')">C</button>
+        <button onclick="pressKey('V')">V</button>
+        <button onclick="pressKey('B')">B</button>
+        <button onclick="pressKey('N')">N</button>
+        <button onclick="pressKey('M')">M</button>
+      </div>
+
+      <div class="row">
+        <button onclick="pressKey(' ')">Space</button>
+        <button onclick="backspace()">⌫</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
